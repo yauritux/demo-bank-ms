@@ -1,0 +1,11 @@
+build:
+  version: "1.0-SNAPSHOT"
+
+accounts:
+  message: "Welcome to demo of SimpleBank Cards microservice for Development environment"
+  contactDetails:
+    name: "Yauri Attamimi"
+    email: "{cipher}4ceb41935f0c5763d8eca4b5c1001a87975b1e6de7789dde16072182a96d25b9ff66ea70774b50296d82621bb80ced47"
+  onCallSupport:
+    - +81 777 55123577
+    - +62 21 77348484

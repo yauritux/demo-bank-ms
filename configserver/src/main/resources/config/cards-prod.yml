@@ -1,0 +1,5 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to demo of SimpleBank Cards microservice for Production (Live) environment"
