@@ -15,7 +15,7 @@ import lombok.Data;
 public class LoansDto {
 
     @NotEmpty(message = "Mobile number cannot be null or empty")
-    @Pattern(regexp = "(^$|[0-9]{,15})", message = "Mobile number must be 15 digits")
+    @Pattern(regexp = "(^$|[0-9]{10,15})", message = "Mobile number must be between 10 to 15 digits")
     @Schema(
             description = "Mobile number of the Customer", example = "6282225251437"
     )
